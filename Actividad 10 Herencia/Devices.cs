@@ -50,7 +50,7 @@ namespace Actividad_10_Herencia
                 Console.Write("Ingrese el nombre del producto: ");
                 string nameDevices = Console.ReadLine();
                 nameDevices.ToLower();
-                Console.Write("Ingrese el precio del producto: ");
+                Console.Write("Ingrese la marca del producto: ");
                 string brandDevices = Console.ReadLine();
                 menutype();
                 int option = int.Parse(Console.ReadLine());
